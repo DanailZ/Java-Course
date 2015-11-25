@@ -1,0 +1,23 @@
+package nervnakriza;
+import java.util.Scanner;
+
+public class pravougulnik {
+
+	public static void main(String[] args) {
+		int a =5;
+		int b =7;
+Scanner sc = new Scanner (System.in);
+
+ System.out.println("Enter the fnumber");
+ 
+  a  =sc.nextInt();
+  System.out.println("enter the snum");
+  
+  
+  b=sc.nextInt(); 
+		
+  System.out.println("face:" + (a*b));
+
+	}
+
+}

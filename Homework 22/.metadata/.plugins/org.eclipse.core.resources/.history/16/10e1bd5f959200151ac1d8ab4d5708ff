@@ -1,0 +1,19 @@
+
+
+public class chetno {
+
+	public static void main(String[] args) {
+		int a = 4 ;
+		int b = 5 ;
+	
+		
+		
+		boolean result = (a/2==2);
+		System.out.println("chetno:"+a);
+		System.out.println("nechetno:"+b);
+	
+		
+
+	}
+
+}

@@ -1,0 +1,9 @@
+package nervnakriza;
+
+public class pravougulnik {
+
+	public static void main(String[] args) {
+
+	}
+
+}

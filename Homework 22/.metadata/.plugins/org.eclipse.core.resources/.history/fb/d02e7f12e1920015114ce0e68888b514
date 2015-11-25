@@ -1,0 +1,33 @@
+package nervnakriza;
+import java.util.Scanner;
+
+
+public class edikvosi {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner (System.in);
+		
+		
+		String name; 
+		int years ;
+		
+		double birthdate;
+		
+		System.out.println("Enter the name of the person");
+
+		name=sc.nextLine();
+		System.out.println("Enter the years of the person");
+		
+		years=sc.nextInt();
+		
+		System.out.println("Enter the  birth date ");
+		
+		birthdate=sc.nextDouble();
+		
+		System.out.println("here are the resuts:"+name ,years,birthdate );
+		
+	} 
+	
+	
+
+}

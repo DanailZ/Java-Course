@@ -1,0 +1,29 @@
+
+public class Company {
+
+	public static void main(String[] args) {
+		
+	public 	String fname =Danail;
+	   public String lname =Zlatanov;
+	    int years = 20;
+	    char m;
+	   long EGN = 9509227840L;
+	  long phonenumber = 359887813369L;
+	  
+	  System.out.println("My name is:" +fname);
+	  
+	  		System.out.println("My last name is :" +lname);
+	  
+	   System.out.println("I'm %s years old ");
+	    
+	    
+	    
+		
+	    
+	    
+		
+	    
+
+	}
+
+}

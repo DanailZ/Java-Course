@@ -1,0 +1,19 @@
+
+public class Numbers {
+
+	public static void main(String[] args) {
+		
+		int fnum = 22;
+		int snum = 50;
+	
+		
+		
+		
+		
+		
+		System.out.println(fnum + snum);
+		
+
+	}
+
+}

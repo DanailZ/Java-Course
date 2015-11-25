@@ -1,0 +1,18 @@
+
+public class Stoinosti {
+
+	public static void main(String[] args) {
+
+		int a = 5 ;
+		int b = 8  ;
+		int temp;
+		
+		temp = a ;
+		a=b;
+		b=a;
+		b = temp; 
+		System.out.println( a );
+		System.out.println(b);
+	}
+
+}

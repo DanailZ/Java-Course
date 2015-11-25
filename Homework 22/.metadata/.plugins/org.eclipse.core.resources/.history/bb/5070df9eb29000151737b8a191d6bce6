@@ -1,0 +1,25 @@
+	import java.util.Scanner;
+	
+public class Console {
+
+
+	public static void main(String[] args) {
+		Scanner konzola = new Scanner(System.in);
+		
+		System.out.println("Enter the wanted numbers");
+		 int numInt = konzola.nextInt();
+		 
+		 System.out.println("Enter the first number");
+		 int numInt=konzola.nextInt();
+		 System.out.println("Enter the second number");
+		 int numInt=konzola.nextInt();
+		 System.out.println("Enter the third number");
+		 int numInt=konzola.nextInt();
+		 System.out.println("Enter the forth stnumber");
+		 int numInt=konzola.nextInt();
+		 konzola.close();
+		 
+		 
+		 }
+
+}
