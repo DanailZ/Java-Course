@@ -1,0 +1,35 @@
+import java.util.*io;
+
+
+public class eikvosi{
+
+  
+  public static void main(System.in){
+  
+  String car;
+  double price;
+  double year;
+  String autostore;
+  
+String model;  
+ 
+  
+  
+  public eikvosi(String car,double price,double year,String autostore){
+  this.car=car;
+  this.price=price;
+  this.year=year;
+  this.autostore=autostore;
+  
+  
+  }
+  File file = new file(System.in);
+  
+  System.out.println("File created");
+  
+  
+  
+  
+  
+  
+  
