@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class Factorial {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner (System.in);
+		
+		System.out.println("Enter N");
+		
+		int factorial=1;
+		int factorial2=1;
+		System.out.println("enter K");
+		int K= sc.nextInt();
+		int N = sc.nextInt();
+		for(int i =1 ; i<N;i++){
+		factorial*=i;
+		}
+			
+		for(int i = 1; i<K;i++){
+		
+			factorial2*=i;
+			
+		} 
+		int result = factorial / factorial2;
+		System.out.println(result);
+		
+		
+		
+
+	}
+
+}

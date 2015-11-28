@@ -1,0 +1,36 @@
+import java.util.Scanner;
+public class Interval {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner (System.in);
+		System.out.println("Enter the number :");
+		
+		int a=sc.nextInt();
+		
+		if( a >= 1 && a <=5 && a%2 ==0){
+			
+			System.out.println("Your number is even:"+a);
+		}else if (a >=1 && a <=5 &&  a%2 !=0) {
+		System.out.println("Your number is Odd:"+a);
+		
+		}
+	if ( a >=6 && a <=15 && a%3 ==0){
+		System.out.println("your number is deviding by 3");
+	}else if ( a >=6 && a <=15 && a%3 !=0){
+		System.out.println("your number is not devidable by 3 ");
+	}
+	if ( a > 15){
+		System.out.println("the number is positive");
+	}else if ( a < 0 ){
+		System.out.println("the number is negative");
+	}else if  ( a==0){
+		System.out.println("the number is 0");
+		
+	}
+	
+	sc.close();
+	
+	}
+
+}
