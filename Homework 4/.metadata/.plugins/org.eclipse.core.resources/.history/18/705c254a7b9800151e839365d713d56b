@@ -1,0 +1,26 @@
+import java. util.Scanner;
+
+public class fibunachi {
+
+
+
+	public static void main(String[] args) {
+	
+		Scanner scanner = new Scanner (System.in);
+		int sc = scanner.nextInt();
+		int[] fibonaci = new int[sc];
+		int a,b,c;
+		 a= 1;
+		 b =1;
+	    
+		   for (int c = 0; c < fibonaci.length; c++) {
+		   
+			c = a +b ; 
+              System.out.println(fibonaci);			
+		}		
+		   System.out.println();
+		}
+	
+	}
+
+

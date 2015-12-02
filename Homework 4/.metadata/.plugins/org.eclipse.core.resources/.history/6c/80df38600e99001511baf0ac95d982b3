@@ -1,0 +1,16 @@
+
+public class SymetricMassive {
+
+	public static void main(String[] args) {
+		System.out.println("Index \t Value");
+		int[] arr = {4,2,6,8,3,9};
+		for (int i = 0; i < arr.length; i++) {
+			System.out.println(i + "\t" + arr[i]);
+			
+		}
+		
+		
+
+	}
+
+}
