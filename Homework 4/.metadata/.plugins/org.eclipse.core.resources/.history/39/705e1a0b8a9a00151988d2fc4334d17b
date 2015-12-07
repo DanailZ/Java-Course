@@ -1,0 +1,21 @@
+
+public class Symetric {
+   
+	public static void SymetricNumbers(short a){
+		a = 999;
+		for (int i = 10; i < a +i+1; i++) {
+			
+		}
+			
+		}
+     public static void main(String[]args){
+				
+    	 short a = 0;
+		short i = (short) (a+a+1);
+		SymetricNumbers(i);	
+		System.out.println(i);
+			}
+		
+		
+	}
+

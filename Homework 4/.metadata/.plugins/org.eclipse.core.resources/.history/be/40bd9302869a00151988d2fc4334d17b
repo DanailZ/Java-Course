@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class EvenOrOdd {
+static Scanner sc = new Scanner(System.in);
+
+public static void EvenOrOddNumber(int a ){
+	System.out.println("Enter the number:");
+	
+	a=sc.nextInt();
+	
+	if(a>=0&&a%2 ==0){
+		System.out.println("even:"+a);
+	}else{
+	System.out.println("Odd:"+a);
+	}
+	
+}
+ public static void main(String[]args){
+	
+	System.out.println(); 
+	 
+	 
+	 
+	 
+ }
+
+ 
+	
+
+}

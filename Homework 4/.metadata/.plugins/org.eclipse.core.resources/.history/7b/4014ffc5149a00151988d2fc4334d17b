@@ -1,0 +1,37 @@
+import java .util.Scanner;
+
+public class MaxNumber {
+
+	
+		
+		public void maxNumber(int numbers){
+			
+			Scanner sc = new Scanner(System.in);
+			int a = sc.nextInt();
+			int b = sc.nextInt();
+			int c = sc.nextInt();
+			
+			System.out.println("Enter the  first number:");
+			
+			if(a>b&&a>c){
+			System.out.println("Your number is:"+sc);
+			
+			System.out.println("Enter the  first number:");
+			
+			}else if(b>a&&b>c){
+		
+			System.out.println("Your number is:"+sc);
+	
+			System.out.println("Enter the  first number:");
+		
+			}else{
+				System.out.println();
+			}
+			
+		}
+			
+		
+		
+	}
+
+

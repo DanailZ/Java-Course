@@ -1,0 +1,24 @@
+import java .util.Scanner;
+
+public class MaxNumber {
+	
+	public void maxNumber(int a , int b){
+		
+		if(a>b){
+			System.out.println("the biugger number:"+a);
+		
+		}else{
+			System.out.println("The bigger number is :"+b);
+			
+		}
+		
+	}
+	public static void main(String[]args){
+		MaxNumber max = new MaxNumber();
+		max.maxNumber(5, 7);
+	}
+}
+
+
+		
+	

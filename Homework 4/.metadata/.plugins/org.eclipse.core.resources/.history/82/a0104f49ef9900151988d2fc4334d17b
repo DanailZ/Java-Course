@@ -1,0 +1,21 @@
+
+import java.util.Scanner;
+
+public class RecursionNumbers {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println(number (sc.nextLong()));
+
+	}
+	public static long number(long sc ){
+		if(sc<=1){
+			return 1;
+		}else{
+			
+		}
+		return sc* number(sc-1);
+	}
+
+}

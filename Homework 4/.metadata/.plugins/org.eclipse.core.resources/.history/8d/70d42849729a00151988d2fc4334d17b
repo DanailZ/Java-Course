@@ -1,0 +1,25 @@
+import java .util.Scanner;
+
+public class MaxNumber {
+	public static void main(String[]args){
+		
+		int a = 5;
+		int b = 7;
+	}
+	
+	public static void maxNumber(int a , int b){
+		
+	 a = 5;
+	 b = 7;
+ 
+	 if(a>b){
+		 System.out.println("the bigger number is :"+ a);
+		 
+	 }else {
+		 System.out.println("The bigger number is:"+ b );
+
+	 }
+	 System.out.println(a);
+	}
+}
+

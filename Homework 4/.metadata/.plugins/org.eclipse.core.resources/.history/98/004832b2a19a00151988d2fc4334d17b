@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class BackwordsLine {
+	
+	
+	public static void reverseString(String Original , String Reverse){
+		
+		Scanner sc = new Scanner(System.in);
+		Original =sc.nextLine();
+		Reverse = sc.nextLine();
+		
+		int len  = Reverse.length();
+		for(int i = len-1;i>=0;i--){
+			Reverse=Reverse+Original.length();
+			System.out.println();
+		
+		
+		}
+		
+			
+		}
+	      public static void main (String[]args){
+	    	 
+	    	  System.out.println("Enter the word:"+ Reverse);
+	    	  System.out.println("Reversed :"+" ");
+	}
+
+}
