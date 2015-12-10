@@ -1,0 +1,27 @@
+
+public class Car {
+	
+	 private float price;
+	
+	 public Car(float price){
+		 super();
+		 this.price = price;
+	 }
+	
+	public static void main(String[]args){
+   double price;
+   
+ 
+   Car[] jeep = new Car[5];
+   
+   jeep[0] = new Car (2300,11.4,70);
+   
+   Car[] car = new Car[5];
+   
+   for (int i = 0; i < args.length; i++) {
+		
+   }
+   
+	}
+   
+}

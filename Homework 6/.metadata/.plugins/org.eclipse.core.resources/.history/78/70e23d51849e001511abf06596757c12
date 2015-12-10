@@ -1,0 +1,7 @@
+
+public class Vegetable extends Stock{
+	 double carbohydrares;
+	 double Ca;
+	 
+
+}

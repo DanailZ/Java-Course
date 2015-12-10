@@ -1,0 +1,12 @@
+
+public class Main {
+	public static void main(String[] args) {
+		Cat[] cats = new Cat[2];
+		cats[0] = new Cat("Ma4ka",2);
+		cats[1] = new Cat("Puss in boots",3);
+		
+		for (int i = 0; i < cats.length; i++) {
+			cats[i].say();
+		}
+	}
+}

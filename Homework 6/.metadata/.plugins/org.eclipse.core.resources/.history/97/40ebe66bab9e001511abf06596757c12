@@ -1,0 +1,7 @@
+
+public class Vegetable {
+	 double carbohydrares;
+	 double Ca;
+	 
+
+}

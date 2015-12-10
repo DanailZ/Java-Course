@@ -1,0 +1,13 @@
+
+public class ConverterTemp {
+	
+	
+	public static void main (String[] args){
+		ConverterTemp conv = new ConverterTemp(25);
+		
+	}
+public ConverterTemp(double celsium) {
+	// TODO Auto-generated constructor stub
+	System.out.println("Fahrenheit: "+ (9/5*(celsium+32)));
+}
+}

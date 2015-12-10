@@ -1,0 +1,23 @@
+
+public class Cat {
+
+	public static void main(String[] args) {
+		Cat[] cats = new Cat[10];
+		String catname;
+		int years;
+
+		for (int i = 0; i < cats.length; i++) {
+			cats[i].Say();
+		}
+	}
+
+	public static void Say() {
+		String catname = "Pixy";
+		int years = 3;
+
+		System.out.println(catname);
+		System.out.println(years);
+
+	}
+
+}

@@ -1,0 +1,31 @@
+
+public class Cat {
+	private static String name;
+	private static int years ;
+
+	public Cat(String name,int years ) {
+		this.name=name;
+		this.years=years;
+	}
+	
+
+	public static void Say() {
+		System.out.println(name);
+		System.out.println(years);
+
+	}
+	
+	static class Main{
+		public static void main(String[] args) {
+			Cat[] cats = new Cat[2];
+			cats[0] = new Cat("Ma4ka",2);
+			cats[1] = new Cat("Puss in boots",3);
+			
+			for (int i = 0; i < cats.length; i++) {
+				cats[i].Say();
+			}
+		}
+	}
+	
+
+}

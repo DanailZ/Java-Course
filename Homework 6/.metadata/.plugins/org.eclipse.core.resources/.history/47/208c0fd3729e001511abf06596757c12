@@ -1,0 +1,21 @@
+
+public class SUV extends Car {
+	
+	boolean isHigh;
+    
+	
+	public boolean isHigh() {
+		return isHigh();
+	}
+
+	public void setHigh(boolean high) {
+		this.isHigh = high;
+	}
+
+	public SUV(double price, boolean ishigh) {
+		super(price);
+		this.isHigh = ishigh;
+		
+
+	}
+}

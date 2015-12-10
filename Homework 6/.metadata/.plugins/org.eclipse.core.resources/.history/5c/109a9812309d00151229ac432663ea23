@@ -1,0 +1,20 @@
+
+public class Cat {
+	private String name;
+	private int years ;
+
+	public Cat(String name,int years ) {
+		this.name=name;
+		this.years=years;
+	}
+	
+
+	public void say() {
+		System.out.println(name);
+		System.out.println(years);
+
+	}
+	
+	
+
+}

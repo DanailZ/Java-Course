@@ -1,0 +1,13 @@
+
+public class Automobile extends Car {
+	  double  fuelusege;
+	 
+	 public Automobile(double fuelusege){
+		 super(price);
+		 this.fuelusege=fuelusege;
+		 
+	 }
+	 
+	
+
+}

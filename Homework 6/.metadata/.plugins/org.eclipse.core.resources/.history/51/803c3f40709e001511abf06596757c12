@@ -1,0 +1,31 @@
+
+public class SUV extends Car{
+	private boolean high;
+	private boolean low;
+	 private int a = 70;
+	
+    public SUV(boolean high,boolean low){
+    	super(price);
+    	this.high=high;
+    	this.low=low;
+    	
+    
+    }
+    
+   
+   	if(high >= a ){
+    	System.out.println("The jeep is high");
+    }else{
+    	System.out.println("the jeep is low");
+    }
+  
+      	
+    
+    	
+    
+    
+    
+	
+	
+
+}}

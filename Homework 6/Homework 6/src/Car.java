@@ -1,0 +1,62 @@
+
+public class Car {
+
+	protected double price;
+
+	public double getPrice() {
+		return price;
+	}
+
+	public void setPrice(double price) {
+		this.price = price;
+	}
+
+	public Car(double price) {
+
+		this.price = price;
+	}
+
+	public static void main(String[] args) {
+		Car[] car = new Car[10];
+		car[0] = new Automobile(45000, 13.6);
+		car[1] = new Automobile(10000, 17.2);
+		car[2] = new Automobile(25999, 13.0);
+		car[3] = new Automobile(15400, 14.5);
+		car[4] = new Automobile(11599, 20.5);
+		car[5] = new SUV(352465, false);
+		car[6] = new SUV(65433, true);
+		car[7] = new SUV(32454, true);
+		car[8] = new SUV(5434567, false);
+		car[9] = new SUV(76543, false);
+
+		for (int i = 0; i < car.length; i++) {
+			for (int j = 0; j < car.length; j++) {
+				if (car[i].getPrice() > car[j].getPrice()) {
+					Car a = car[i];
+					car[i] = car[j];
+					car[j] = a;
+				}
+			}
+
+		}
+		for (int i = 0; i < car.length; i++) {
+			printCars(car[i]);
+		}
+
+	}
+
+	public static void printCars(Car car) {
+
+		if (car instanceof Automobile) {// ако car е от тип Automobile
+			System.out.print(" Type: " + car.getClass().getName() + " "); //Името на класа
+			System.out.print(" Fuel usage: " + (((Automobile) car).getFuelusege())); // кастваме car към Automobile тип, за да използваме метода за fuelUsage
+		} else { // ако е от тип SUV
+			System.out.print(" Type: " + car.getClass().getName() + " "); //Името на класа
+			System.out.print(" High: " + ((SUV) car).isHigh()); // кастваме car към SUV, за да използваме метода за височина на джипа
+		}
+
+		System.out.print(" Price: " + car.getPrice() + " ");
+		System.out.println();
+	}
+
+}

@@ -1,0 +1,44 @@
+
+public class Cat {
+	private String name;
+	private int years;
+	
+	public Cat(String name , int years){
+		this.name=name;
+		this.years=years;
+		
+	}
+	
+	public static void main(String[]args){
+		Cat[] cats = new Cat[10];
+		
+	for (int i = 1; i < cats.length; i++) {
+		
+		
+	Cat kitty = new Cat("Jaco",2);
+	 cats[i]= new Cat("Jo", 4);
+	 cats[i]= new Cat("jofri" ,1);
+	 cats[i]= new Cat("edlard" ,5);
+	 cats[i]= new Cat("jimmy" ,8);
+	 cats[i]= new Cat("benji" ,7);
+	 cats[i]= new Cat("maimun" ,3);
+	 cats[i]= new Cat("tom" ,4);
+	 cats[i]= new Cat("pixy" ,5);
+	 cats[i]= new Cat("kollio" ,5);
+	 cats[i]= new Cat("georgi" ,2);
+	
+	 
+	kitty.say();
+	}
+	}
+	public void say(){
+	
+	System.out.println(name);
+	System.out.println(years);
+	
+	
+		
+	}
+	
+
+}
