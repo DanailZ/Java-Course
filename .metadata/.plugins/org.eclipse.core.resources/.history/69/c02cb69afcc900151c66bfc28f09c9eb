@@ -1,0 +1,14 @@
+
+public class ThreadOne implements Runnable{
+	public ThreadOne() {
+		// TODO Auto-generated constructor stub
+	}
+	@Override
+	public void run() {
+		System.out.println("The thread is started!");
+		System.out.println("The thread complete!");
+	}
+
+	
+
+}

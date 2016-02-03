@@ -1,0 +1,17 @@
+import java.*;
+public class MyThread {
+	
+	
+	public static void main(String[]args){
+		Thread thread = new Thread(new ThreadOne());
+		thread.start();
+		try {
+			thread.sleep(300);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		
+	}
+	
+
+}

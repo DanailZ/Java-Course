@@ -1,0 +1,48 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		System.out.println("The Personal Account");
+			PersonalAccount p = new PersonalAccount(673.89, "Danail", 95092046);
+			CoorporativeAccount c = new CoorporativeAccount(583.68, "Traxxas","BG5489248");
+			
+			try{
+			p.InvalidAccount(p);
+			} catch (InvalidAccountException e) {
+				System.out.println(e.getMessage());
+				e.printStackTrace();
+			}
+			
+			try{
+				c.InvalidAccount(c);
+			} catch (InvalidAccountException e) {
+				System.out.println(e.getMessage());
+				e.printStackTrace();
+			}
+			
+			System.out.println();
+			
+			try{
+				p.setAmount(-80.4);
+			} catch (NegativeMoneyException e){
+				System.out.println(e.getMessage());
+				e.printStackTrace();
+			}
+			
+			System.out.println();
+			
+			try{
+				c.setAmount(-22.7);
+			} catch (NegativeMoneyException e){
+				System.out.println(e.getMessage());
+				e.printStackTrace();
+			}
+             
+	    }
+
+		
+		
+
+	}
+
+

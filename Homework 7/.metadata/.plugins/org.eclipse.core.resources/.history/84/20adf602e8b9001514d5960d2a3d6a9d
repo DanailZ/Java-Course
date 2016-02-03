@@ -1,0 +1,35 @@
+import java.util.*;
+public class Account {
+	Scanner input = new Scanner(System.in);
+	
+	private double cashamount =input.nextDouble();
+	
+	public Account(double cashamount) {
+		super();
+		this.cashamount=cashamount;	
+	}
+
+	public Scanner getInput() {
+		return input;
+	}
+
+	public void setInput(Scanner input) {
+		this.input = input;
+	}
+
+	public double getCashamount() {
+		return cashamount;
+	}
+
+	public void setCashamount(double cashamount) {
+		this.cashamount = cashamount;
+	}
+	
+	public void setAmount(double cashamount) throws NegativeMoneyException {
+		if(cashamount < 0){
+			throw new NegativeMoneyException("The amont you want to add is negative.");
+		}
+		this.cashamount = cashamount;
+	}
+
+}
