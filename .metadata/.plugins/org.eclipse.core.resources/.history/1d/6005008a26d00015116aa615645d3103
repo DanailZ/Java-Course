@@ -1,0 +1,94 @@
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.util.*;
+import java.util.Scanner;
+
+public class Matrix {
+	Scanner sc = new Scanner(System.in);
+
+  private int[][] matrix;
+  private int size ;
+    
+  	public Matrix(int[][] matrix,int size) {
+		super();
+		this.matrix = matrix;
+		this.size = size;
+		
+	}
+
+	public int[][] getMatrix() {
+		return matrix;
+	}
+
+	public void setMatrix(int[][] matrix) {
+		this.matrix = matrix;
+	}
+
+	public int getSize() {
+		return size;
+	}
+
+	public void setSize(int size) {
+		this.size = size;
+	}
+  	
+	public int [][]TheHoleMatrix(){
+	size= sc.nextInt();
+  	
+  		if(size < 2 || size >9 ){
+  			System.out.println("Invalid size");
+  			System.exit(0);
+  		}
+  		 return matrix = new int[size][size];
+  		
+
+	for (int i = 0; i < matrix.length; i++) {
+		for (int j = 0; j < matrix[i].length; j++) {
+			System.out.println("enter number to fill the matrix");
+			matrix[i][j] = sc.nextInt();
+
+		}
+	}
+	
+	setMatrix(matrix);
+	return matrix;
+	for (int r = 0; r < matrix.length; r++) {
+		for (int c = 0; c < matrix.length; c++) {
+			
+			System.out.println(matrix[r][c]+ " ");
+		
+		}
+		return matrix;
+	}
+	}
+	
+	public static int lagestInColumn(int[][] matrix , int size){
+		int max = 0 ;
+		
+		for (int i = 0; i < matrix.length; i++) {
+			max = matrix[0][i];
+			for (int j = 0; j < matrix[i].length; j++)
+				if (matrix[j][i] > max)
+					max = matrix[j][i];
+			System.out.println("Maximum in a column " + i + " is: " + max);
+		}
+		return max;
+		
+	}
+		
+	
+	
+	 
+	
+    public void writeFile(String path , int [][] matrix){
+    	try{
+    		FileWriter fileWriter = new FileWriter(path);
+    		BufferedWriter bWriter = new BufferedWriter(fileWriter);
+	
+    	}
+    	
+}
+
+
+
+
